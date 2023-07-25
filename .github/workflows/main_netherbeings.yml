@@ -38,6 +38,6 @@ jobs:
         with:
           app-name: 'Netherbeings'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E2E0DCF9632F40DE8795BDF04E20E059 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_51BD4DE11D5445558D9639FF4A4FD468 }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
